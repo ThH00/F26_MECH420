@@ -33,3 +33,6 @@ https://mitcommlab.mit.edu/meche/commkit/portfolio/
 
 - Mechanical Design Engineer (Indeed)  
   https://www.indeed.com/viewjob?jk=66822175eddb7c08
+
+  ### Geometric Dimensioning and Tolerancing
+  https://youtu.be/G7wnGeR_69k?is=TdGACdHkOxWZqG5N
