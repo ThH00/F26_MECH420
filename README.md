@@ -2,8 +2,9 @@
 
 ## Course Sequence
 
-- CAD
-- Mechanics of Materials
+- MECH201 Computer Aided Drawing and Design
+- MECH320 Mechanics of Materials
+- MECH420 Engineering Materials
 - **MECH420 – Mechanical Design I**
 - MECH421 – Manufacturing Processes I
 - MECH525 – Product Design and Development
@@ -34,5 +35,5 @@ https://mitcommlab.mit.edu/meche/commkit/portfolio/
 - Mechanical Design Engineer (Indeed)  
   https://www.indeed.com/viewjob?jk=66822175eddb7c08
 
-  ### Geometric Dimensioning and Tolerancing
-  https://youtu.be/G7wnGeR_69k?is=TdGACdHkOxWZqG5N
+## Geometric Dimensioning and Tolerancing
+https://youtu.be/G7wnGeR_69k?is=TdGACdHkOxWZqG5N
