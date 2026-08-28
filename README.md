@@ -6,6 +6,9 @@
 - Office Hours: MTWR 11am-12:30 PM Bechtel 532
 - [Syllabus](https://drive.google.com/file/d/1WrSCfRxP2NmnjPp66QRe3qVlWm-hRw1P/view?usp=sharing)
 
+## Course Content
+- [Lecture 1](lectures.md)
+
 ## Course Sequence
 
 - MECH201 Computer Aided Drawing and Design
@@ -30,8 +33,6 @@
 - [Product Design Engineer Intern (Skydio)](https://www.linkedin.com/jobs/view/product-design-engineer-intern-at-skydio-4446352757)
 
 - [Mechanical Design Engineer (Indeed)](https://www.indeed.com/viewjob?jk=66822175eddb7c08)
-
-## Lecture 1
   
 
 ## Related Topics 
