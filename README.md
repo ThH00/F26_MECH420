@@ -1,4 +1,10 @@
-# Fall 2026 MECH420 (MW 12:30–1:45 PM) Course Website
+# Fall 2026 MECH420 Course Website
+
+## Course Details
+- Instructor: Theresa Honein
+- Lecture Time: MW 12:30–1:45 PM IOEC224B
+- Office Hours: MTWR 11am-12:30 PM Bechtel 532
+- [Syllabus](https://drive.google.com/file/d/1WrSCfRxP2NmnjPp66QRe3qVlWm-hRw1P/view?usp=sharing)
 
 ## Course Sequence
 
