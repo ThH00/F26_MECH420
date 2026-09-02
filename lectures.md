@@ -4,6 +4,9 @@
 
 ## Lecture 1
 
+[Lecture notes](https://drive.google.com/file/d/1YhoEwwKtr_slcWVHbWuczFP8bJdihqNy/view?usp=sharing)
+[Combined Loading Exercise Sheet](https://docs.google.com/document/d/1xXciXbHcGjfe_nvLoPv1Ewphttk2pEBt/edit?usp=sharing&ouid=104978120971085325751&rtpof=true&sd=true)
+
 ### Related Topics
 
 * [Video: Balance laws for a rigid body](https://youtu.be/w3HGcY6Tlek?is=XODE3SZgj9pKZg5q)
