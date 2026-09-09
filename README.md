@@ -26,7 +26,7 @@
 
 | Chapter | Minimum Practice Problems (from Shigly 10th Edition)|
 |---------|---------------------------|
-| 3 | 3-7, 3-8, 3-15(a-d), 3-34(b-c), 3-36, 3-37, 3-39(a), 3-44, 3-45, , 3-69, 3-70, 3-71, 3-73, 3-80|
+| [3](https://drive.google.com/file/d/1dV-7qyF8Gj-vAAFFk3FWIO1L-fFb6xob/view?usp=sharing) | 3-7, 3-8, 3-15(a-d), 3-34(b-c), 3-36, 3-37, 3-39(a), 3-44, 3-45, , 3-69, 3-70, 3-71, 3-73, 3-80|
 
 ## Instructions to Download Abaqus - Student License
 
