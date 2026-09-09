@@ -13,7 +13,7 @@
 | 1 | M 08/31 | No Class | 4.1-4.4 | | |
 | 1 | W 09/02 | Mechanics Review: [Video: Balance laws for a rigid body](https://youtu.be/w3HGcY6Tlek?is=XODE3SZgj9pKZg5q), Average Normal Stress, Average Shear Stress, Torsion of Circular Shaft   | 3.1-3.4, 3.8-3.9,3.12 | [Exercise Sheet 1](https://docs.google.com/document/d/1xXciXbHcGjfe_nvLoPv1Ewphttk2pEBt/edit?usp=sharing&ouid=104978120971085325751&rtpof=true&sd=true), [Area Moments of Inertia](https://drive.google.com/file/d/1Rw352pzyS3KC3OYXKFLCwYzVZGUcnbvL/view?usp=sharing)  | |
 | 2 | M 09/07 | Mechanica Review: Bending of Straight Member, Shear Stress in Straight Members  | 3.10-3.11 | [Stress Concentration Table](https://drive.google.com/file/d/1oVXTwLdCrDO4sOFscoFMsGW-sGhYiacv/view?usp=sharing) |  |
-| 2 | W 09/09 | Maximum-Shear Stress Theory for Ductile Material | 4.1-4.4 | | |
+| 2 | W 09/09 | Maximum-Shear Stress Theory for Ductile Material | 4.1-4.4 | | HW1 due on September 19 |
 | 2 | M 09/09 | MAKEUP SESSION. Mechanics Review: [Video: Stress Transformation and Mohr Circle](https://www.youtube.com/watch?v=_DH3546mSCM), [Video: 3D Mohr Circle](https://www.youtube.com/watch?v=V-RtoqlxEmA&t=1s), Stress Concentration, Combined Loading  | 3.5-3.7, 3.13, Ch3 Problems | [Exercise Sheet 2](https://drive.google.com/file/d/1HW0Yxq15-nBMHjpj5mMEzPDebRPe2uSG/view?usp=sharing) | |
 | 3 | M 09/12 | Distortion Energy Theory for Ductile Material, Coulomb-Mohr Theory for Ductile Material, Failure for Ductile Material Summary | 5.5-5.7 | | |
 | 3 | W 09/16 | TBD | | | |
@@ -24,7 +24,7 @@
 
 ## Practice Problems from Book
 
-| Chapter | Minimum Practice Problems |
+| Chapter | Minimum Practice Problems (from Shigly 10th Edition)|
 |---------|---------------------------|
 | 3 | 3-7, 3-8, 3-15(a-d), 3-34(b-c), 3-36, 3-37, 3-39(a), 3-44, 3-45, , 3-69, 3-70, 3-71, 3-73, 3-80|
 
