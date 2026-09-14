@@ -10,13 +10,13 @@
 
 | Week | Date  | Lecture Topics | Textbook Reading | Handouts      | HW |
 |----|-------|----------------|------------------|---------------|----|
-| 1 | M 08/31 | No Class | 4.1-4.4 | | |
+| 1 | M 08/31 | No Class | | | |
 | 1 | W 09/02 | Mechanics Review: [Video: Balance laws for a rigid body](https://youtu.be/w3HGcY6Tlek?is=XODE3SZgj9pKZg5q), Average Normal Stress, Average Shear Stress, Torsion of Circular Shaft   | 3.1-3.4, 3.8-3.9,3.12 | [Exercise Sheet - Mechanics Review 1](https://docs.google.com/document/d/1xXciXbHcGjfe_nvLoPv1Ewphttk2pEBt/edit?usp=sharing&ouid=104978120971085325751&rtpof=true&sd=true), [Area Moments of Inertia](https://drive.google.com/file/d/1Rw352pzyS3KC3OYXKFLCwYzVZGUcnbvL/view?usp=sharing)  | |
 | 2 | M 09/07 | Mechanica Review: Bending of Straight Member, Shear Stress in Straight Members  | 3.10-3.11 | [Stress Concentration Table](https://drive.google.com/file/d/1oVXTwLdCrDO4sOFscoFMsGW-sGhYiacv/view?usp=sharing) |  |
 | 2 | W 09/09 | Maximum-Shear Stress Theory for Ductile Material | 4.1-4.4 | [Exercise Sheet - Failuer of Ductile Materials](https://drive.google.com/file/d/1KtxGz6OhtUhrWIQHJvrqkv7pczCsTOP5/view?usp=sharing) | HW1 due on September 19 |
 | 2 | M 09/09 | MAKEUP SESSION. Mechanics Review: [Video: Stress Transformation and Mohr Circle](https://www.youtube.com/watch?v=_DH3546mSCM), [Video: 3D Mohr Circle](https://www.youtube.com/watch?v=V-RtoqlxEmA&t=1s), Stress Concentration, Combined Loading  | 3.5-3.7, 3.13, Ch3 Problems | [Exercise Sheet - Mechanics Review 2](https://drive.google.com/file/d/1HW0Yxq15-nBMHjpj5mMEzPDebRPe2uSG/view?usp=sharing) | |
 | 3 | M 09/12 | Distortion Energy Theory for Ductile Material, Coulomb-Mohr Theory for Ductile Material, Failure for Ductile Material Summary | 5.5-5.7 | | |
-| 3 | W 09/16 | TBD | | | |
+| 3 | W 09/16 | 5.8 Maximum-Normal-Stress Theory for Brittle Material, 5.9 Modifications of the Mohr Theory for Brittle Material, 5.10 Failure of Brittle Materials Summary, 5.11 Selectio of Failure Criteria, 5.12 Introduction to Fracture Mechanics, 5.13 Important Design Equations  | 5.8-5.13 |  | |
 | 4 | M 09/21 | No Lecture, 40 minutes quiz | | | |
 | 4 | W 09/23 | No Lecture, 40 minutes quiz | | | |
 | 5 | M 09/28 | TBD | | | |
@@ -27,6 +27,7 @@
 | Chapter | Minimum Practice Problems (from Shigly 10th Edition)|
 |---------|---------------------------|
 | [3](https://drive.google.com/file/d/1dV-7qyF8Gj-vAAFFk3FWIO1L-fFb6xob/view?usp=sharing) | 3-7, 3-8, 3-15(a-d), 3-34(b-c), 3-36, 3-37, 3-39(a), 3-44, 3-45, , 3-69, 3-70, 3-71, 3-73, 3-80|
+| [4]() | 5-1(d-e), 5-2(a-e), 5-3(c-d), 5-4(c-d), 5-8, 5-17, 5-19(c-e), 5-23, 5-28, 5-33, 5-36, 5-37, 5-50, 5-56, 5-58, 5-60, 5-63, + more TBD  | 
 
 ## Instructions to Download Abaqus - Student License
 
