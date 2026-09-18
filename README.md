@@ -5,6 +5,7 @@
 - Lecture Time: MW 12:30–1:45 PM IOEC224B
 - Office Hours: TR 11am-12:30 PM, W2-5PM Bechtel 532
 - [Syllabus](https://drive.google.com/file/d/1WrSCfRxP2NmnjPp66QRe3qVlWm-hRw1P/view?usp=sharing)
+- Midterm: October 24, 2026 at 8-10am in ELH
 
 ## Course Content
 
@@ -16,10 +17,10 @@
 | 2 | W 09/09 | Maximum-Shear Stress Theory for Ductile Material | 4.1-4.4 | [Exercise Sheet - Failuer of Ductile Materials](https://drive.google.com/file/d/1KtxGz6OhtUhrWIQHJvrqkv7pczCsTOP5/view?usp=sharing) | HW1 due on September 19 |
 | 2 | M 09/09 | MAKEUP SESSION. Mechanics Review: [Video: Stress Transformation and Mohr Circle](https://www.youtube.com/watch?v=_DH3546mSCM), [Video: 3D Mohr Circle](https://www.youtube.com/watch?v=V-RtoqlxEmA&t=1s), Stress Concentration, Combined Loading  | 3.5-3.7, 3.13, Ch3 Problems | [Exercise Sheet - Mechanics Review 2](https://drive.google.com/file/d/1HW0Yxq15-nBMHjpj5mMEzPDebRPe2uSG/view?usp=sharing) | |
 | 3 | M 09/12 | Distortion Energy Theory for Ductile Material, Coulomb-Mohr Theory for Ductile Material, Failure for Ductile Material Summary | 5.5-5.7 | | |
-| 3 | W 09/16 | 5.8 Maximum-Normal-Stress Theory for Brittle Material, 5.9 Modifications of the Mohr Theory for Brittle Material, 5.10 Failure of Brittle Materials Summary, 5.11 Selectio of Failure Criteria, 5.12 Introduction to Fracture Mechanics, 5.13 Important Design Equations  | 5.8-5.13 |  | |
-| 4 | M 09/21 | No Lecture, 40 minutes quiz | | | |
-| 4 | W 09/23 | No Lecture, 40 minutes quiz | | | |
-| 5 | M 09/28 | TBD | | | |
+| 3 | W 09/16 | 5.8 Maximum-Normal-Stress Theory for Brittle Material, 5.9 Modifications of the Mohr Theory for Brittle Material, 5.10 Failure of Brittle Materials Summary, 5.11 Selectio of Failure Criteria  | 5.8-5.11 |  | |
+| 4 | M 09/21 | No Lecture, 50 minutes quiz in Bechtel 202 | | | |
+| 4 | W 09/23 | No Lecture, 50 minutes quiz in Bechtel 202 | | | |
+| 5 | M 09/28 | 5.12 Introduction to Fracture Mechanics, 5.13 Important Design Equations | 5.12-5.13 | | |
 | 5 | W 09/30 | TBD | | | |
 
 ## Practice Problems from Book
