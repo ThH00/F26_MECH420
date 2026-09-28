@@ -20,15 +20,15 @@
 | 3 | W 09/16 | 5.8 Maximum-Normal-Stress Theory for Brittle Material, 5.9 Modifications of the Mohr Theory for Brittle Material, 5.10 Failure of Brittle Materials Summary, 5.11 Selectio of Failure Criteria  | 5.8-5.11 |  | |
 | 4 | M 09/21 | No Lecture, 50 minutes quiz in Bechtel 202 | | | |
 | 4 | W 09/23 | No Lecture, 50 minutes quiz in Bechtel 202 | | | |
-| 5 | M 09/28 | 5.12 Introduction to Fracture Mechanics, 5.13 Important Design Equations | 5.12-5.13 | | |
-| 5 | W 09/30 | TBD | | | |
+| 5 | M 09/28 | 5.12 Introduction to Fracture Mechanics, 5.13 Important Design Equations | 5.12-5.13 | | HW2 due on October 3 |
+| 5 | W 09/30 | 6.1 Introduction to Fatigue in Metals, 6.3 Fatigue-Life Methods, 6.4 The Stress-Life Method, 6.6 The Linear-Elastic Fracture Mechanics Method | 6.1-6.6 | | |
 
 ## Practice Problems from Book
 
 | Chapter | Formula Sheet | Minimum Practice Problems (from Shigly 10th Edition)|
 |---------|---------------|---------------------------|
 | [3](https://drive.google.com/file/d/1dV-7qyF8Gj-vAAFFk3FWIO1L-fFb6xob/view?usp=sharing) | [Mechanics Review Formulas](https://drive.google.com/file/d/1Qx241f3rQGRKrJpsVhU2n84Jqf0FZVOH/view?usp=sharing) | 3-7, 3-8, 3-15(a-d), 3-34(b-c), 3-36, 3-37, 3-39(a), 3-44, 3-45, , 3-69, 3-70, 3-71, 3-73, 3-80|
-| [4](https://drive.google.com/file/d/1-cqg61guykmfsK6p1aGU3Eq3GeMayc33/view?usp=sharing) | [Static Failure Theories Formulas](https://drive.google.com/file/d/1a1HcBKHt7vDgAFZpjRlL2mFY2XFVj6A-/view?usp=sharing) | 5-1(d-e), 5-2(a-e), 5-3(c-d), 5-4(c-d), 5-8, 5-17, 5-19(c-e), 5-23, 5-28, 5-33, 5-36, 5-37, 5-50, 5-56, 5-58, 5-60, 5-63, + more TBD  | 
+| [5](https://drive.google.com/file/d/1-cqg61guykmfsK6p1aGU3Eq3GeMayc33/view?usp=sharing) | [Static Failure Theories Formulas](https://drive.google.com/file/d/1a1HcBKHt7vDgAFZpjRlL2mFY2XFVj6A-/view?usp=sharing) | 5-1(d-e), 5-2(a-e), 5-3(c-d), 5-4(c-d), 5-8, 5-17, 5-19(c-e), 5-23, 5-28, 5-33, 5-36, 5-37, 5-50, 5-56, 5-58, 5-60, 5-63, + more TBD  | 
 
 ## Instructions to Download Abaqus - Student License
 
@@ -41,7 +41,7 @@
 
 - MECH201 Computer Aided Drawing and Design
 - MECH320 Mechanics of Materials
-- MECH420 Engineering Materials
+- MECH340 Engineering Materials
 - **MECH420 – Mechanical Design I**
 - MECH421 – Manufacturing Processes I
 - MECH525 – Product Design and Development
