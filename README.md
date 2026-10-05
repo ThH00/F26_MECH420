@@ -9,7 +9,7 @@
 
 ## Course Content
 
-| Week | Date  | Lecture Topics | Textbook Reading | Handouts      | HW |
+| Week | Date  | Lecture Topics | Textbook Reading (based on 10th edition) | Handouts      | HW |
 |----|-------|----------------|------------------|---------------|----|
 | 1 | M 08/31 | No Class | | | |
 | 1 | W 09/02 | Mechanics Review: [Video: Balance laws for a rigid body](https://youtu.be/w3HGcY6Tlek?is=XODE3SZgj9pKZg5q), Average Normal Stress, Average Shear Stress, Torsion of Circular Shaft   | 3.1-3.4, 3.8-3.9,3.12 | [Exercise Sheet - Mechanics Review 1](https://docs.google.com/document/d/1xXciXbHcGjfe_nvLoPv1Ewphttk2pEBt/edit?usp=sharing&ouid=104978120971085325751&rtpof=true&sd=true), [Area Moments of Inertia](https://drive.google.com/file/d/1Rw352pzyS3KC3OYXKFLCwYzVZGUcnbvL/view?usp=sharing)  | |
@@ -22,6 +22,26 @@
 | 4 | W 09/23 | No Lecture, 50 minutes quiz in Bechtel 202 | | | |
 | 5 | M 09/28 | 5.12 Introduction to Fracture Mechanics, 5.13 Important Design Equations, 6.1 Introduction to Fatigue in Metals, Crack Nucleation and Propagation | 5.12-5.13 | | HW2 due on October 3 |
 | 5 | W 09/30 | Fatigue-Life Methods, The linear-elastic fracutre mechanics method, The stress-life method and the S-N diagram, The idealized S-N Diagram for Steels, Endurance limit modifying factors | 6.1-6.9 | [Ch6 example problems](https://drive.google.com/file/d/1KjpreKzzVWSeGPmpYdH9QEpq7wfS6vfY/view?usp=sharing),  [Ch6 summarized notes](https://drive.google.com/file/d/1fadbQog5sJoruLqZdXxJOx1s7OXFDXgU/view?usp=sharing),  [Ch6 Required tables and appendices](https://drive.google.com/file/d/1K-Ft3Z9krea2S3E7UEuDJNp_s7kOFX90/view?usp=sharing) | |
+| 6 | M 10/05 | Endurance limit modifying factors, Stress concentration and Notch Sensitivity | 6.9-6.10 | | |
+| 6 | W 10/07 | Characterizing fluctuating stresses, Fatigue failure criteria for fluctuating stresses, Combination of Loading Notes | 6.11-6.12, 6.14 | | |
+| 7 | M 10/12 | Quiz covering Ch6 material + TBD | | | |
+| 7 | W 10/14 | TBD | | | |
+
+
+## Project Deliverables Overview
+[This](https://drive.google.com/file/d/10B2SF8huNf8F1u6zZ09OYmAAV8idkDYt/view?usp=sharing) is the official announcement of the class project.
+
+Overview of project deadlines:
+
+| Week        | Due        | Deliverable |
+|-------------|------------|-------------|
+| Week 2      | Wed Oct 7  | **Report 1 – Concept:** benchmark review of existing printers and DIY builds (cited); team-defined requirements (build volume, target accuracy, speed/acceleration, footprint, budget); comparison of at least three motion architectures; selected concept with justification. |
+| Week 4      | Wed Oct 21 | **Report 2 – Preliminary design:** full CAD assembly including the electronics bay; load-case definition; hand calculations (inertial loads, belt/lead-screw sizing, motor torque check, rod/frame deflection); preliminary BOM and cost estimate. |
+| Week 6      | Wed Nov 4  | **Report 3 – Detailed design & design freeze:** static FEA with mesh convergence compared to hand calculations; fatigue analysis of the critical component; tolerances, fits and alignment strategy; final component selection, BOM and manufacturing plan. Procurement begins. |
+| Week 8      | Wed Nov 18 | **Report 4 – Build progress:** frame assembled and at least one axis moving; test plan with preliminary measurements; log of design iterations and changes since freeze. |
+| Week 10     | Wed Dec 2  | **Final presentation:** prototype demonstration, poster and competition. |
+| Post-finals | TBA        | **Final project report.** |
+
 
 ## Practice Problems from Book
 
