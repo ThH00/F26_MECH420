@@ -31,6 +31,11 @@
 | [5](https://drive.google.com/file/d/1-cqg61guykmfsK6p1aGU3Eq3GeMayc33/view?usp=sharing) | [Static Failure Theories Formulas](https://drive.google.com/file/d/1a1HcBKHt7vDgAFZpjRlL2mFY2XFVj6A-/view?usp=sharing) | 5-1(d-e), 5-2(a-e), 5-3(c-d), 5-4(c-d), 5-8, 5-17, 5-19(c-e), 5-23, 5-28, 5-33, 5-36, 5-37, 5-50, 5-56, 5-58, 5-60, 5-63, 5-70, 5-84, 5-84  | 
 | [6](https://drive.google.com/file/d/1AtmMwtjoDTjbP59CsBi04DqLonTnBxX2/view?usp=sharing) | 6-2, 6-4, 6-7, 6-11, 6-15, 6-17, +more TBD |
 
+## Quizzes and Solutions
+- Chapter 5: [Quiz 1 - Chalk vs. Whiteboard Marker](https://drive.google.com/file/d/1yAsIXkrn1lBv0y3xWQ28QC1h6Kqbdcfj/view?usp=sharing), [Quiz 2 - Failure Theories Drill](https://drive.google.com/file/d/1AOoD4kHD9f6PN9NL-nMiFbiNfvS6ayHN/view?usp=sharing)
+
+
+
 ## Instructions to Download Abaqus - Student License
 
 - [Ansys Student - Free Software Download](https://ansys.synopsys.com/academic/students/ansys-student)
