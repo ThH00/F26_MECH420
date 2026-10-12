@@ -21,11 +21,11 @@
 | 4 | M 09/21 | No Lecture, 50 minutes quiz in Bechtel 202 | | | |
 | 4 | W 09/23 | No Lecture, 50 minutes quiz in Bechtel 202 | | | |
 | 5 | M 09/28 | 5.12 Introduction to Fracture Mechanics, 5.13 Important Design Equations, 6.1 Introduction to Fatigue in Metals, Crack Nucleation and Propagation | 5.12-5.13 | | HW2 due on October 3 |
-| 5 | W 09/30 | Fatigue-Life Methods, The linear-elastic fracutre mechanics method, The stress-life method and the S-N diagram, The idealized S-N Diagram for Steels, Endurance limit modifying factors | 6.1-6.9 | [Ch6 example problems](https://drive.google.com/file/d/1KjpreKzzVWSeGPmpYdH9QEpq7wfS6vfY/view?usp=sharing),  [Ch6 summarized notes](https://drive.google.com/file/d/1fadbQog5sJoruLqZdXxJOx1s7OXFDXgU/view?usp=sharing),  [Ch6 Required tables and appendices](https://drive.google.com/file/d/1K-Ft3Z9krea2S3E7UEuDJNp_s7kOFX90/view?usp=sharing) | |
+| 5 | W 09/30 | Fatigue-Life Methods, The linear-elastic fracutre mechanics method, The stress-life method and the S-N diagram, The idealized S-N Diagram for Steels, Endurance limit modifying factors | 6.1-6.9 | [Ch6 lecture notes](https://drive.google.com/file/d/1F4Gps9KxB4xKNSmBf61OkfEMGfz5IKbf/view?usp=sharing) | |
 | 6 | M 10/05 | Endurance limit modifying factors, Stress concentration and Notch Sensitivity | 6.9-6.10 | | |
 | 6 | W 10/07 | Characterizing fluctuating stresses, Fatigue failure criteria for fluctuating stresses, Combination of Loading Notes | 6.11-6.12, 6.14 | | |
-| 7 | M 10/12 | Intro to Shafts and Components, Shaft Materials, Shaft Layout, Shaft Design for Stress | 7.1-7.4 | | |
-| 7 | W 10/14 | Deflection Considerations | 7.4-7.5 | | |
+| 7 | M 10/12 | Intro to Shafts and Components, Shaft Materials, Shaft Layout, Shaft Design for Stress | 7.1-7.4 | [Ch7 lecture notes](https://drive.google.com/file/d/1lIuOn_kNjLLd5RGKKooTMUwj644VgVvq/view?usp=sharing) | |
+| 7 | W 10/14 | Deflection Considerations | 7.4-7.5 | | HW3 due on October 28 |
 | 8 | M 10/19 | Limits and Fits | 7.8 | | |
 | 8 | W 10/21 | Quiz covering Ch7 | 7.8 | | |
 
