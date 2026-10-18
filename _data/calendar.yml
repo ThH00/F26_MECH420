@@ -31,7 +31,7 @@
   type: homework
 
 # ---------- Quizzes & exams ----------
-- title: Quiz (50 min)
+- title: Quiz 1 (50 min)
   date: 2026-09-21
   type: quiz
   start: "12:30"
@@ -39,7 +39,7 @@
   location: Bechtel 202
   details: No lecture. Covers Ch5 static failure theories.
 
-- title: Quiz (50 min)
+- title: Quiz 2 (50 min)
   date: 2026-09-23
   type: quiz
   start: "12:30"
@@ -47,7 +47,23 @@
   location: Bechtel 202
   details: No lecture. Covers Ch5 static failure theories.
 
-- title: Quiz — Ch7
+- title: Quiz 3 (drop quiz)
+  date: 2026-10-12
+  type: quiz
+  start: "12:30"
+  end: "13:45"
+  location: IOEC224B
+  details: Unannounced in-class quiz.
+
+- title: Quiz 4 — Ch6
+  date: 2026-10-14
+  type: quiz
+  start: "12:30"
+  end: "13:45"
+  location: IOEC224B
+  details: Multiple-choice quiz on Chapter 6 (fatigue).
+
+- title: Quiz 5 — Ch7
   date: 2026-10-21
   type: quiz
   start: "12:30"
