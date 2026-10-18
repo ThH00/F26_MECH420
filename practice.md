@@ -16,3 +16,13 @@ title: Practice Problems & Quizzes
 
 - Chapter 5: [Quiz 1 - Chalk vs. Whiteboard Marker](https://drive.google.com/file/d/1yAsIXkrn1lBv0y3xWQ28QC1h6Kqbdcfj/view?usp=sharing), [Quiz 2 - Failure Theories Drill](https://drive.google.com/file/d/1AOoD4kHD9f6PN9NL-nMiFbiNfvS6ayHN/view?usp=sharing)
 - Chapter 6: [Quiz 4 - MCQ](https://drive.google.com/file/d/1OPr03xOPVCgECjSFBa63qqHW3RO86jWR/view?usp=sharing) & [Solutions](https://drive.google.com/file/d/1vP-XQwgyLlNtufuTVCd4oLLX7KS0yAsV/view?usp=sharing)
+
+## Useful Videos
+
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%; margin-bottom:16px;">
+  <iframe src="https://www.youtube-nocookie.com/embed/qiFdls4aFsw"
+          title="Useful video"
+          style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen loading="lazy"></iframe>
+</div>
