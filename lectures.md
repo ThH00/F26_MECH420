@@ -13,7 +13,7 @@
 
 * Video: Free body diagrams example 3-01: [Part 1](https://youtu.be/xpNitdMrtIU?is=lyU_If9tpUobVw8I), [Part 2]().
 
-* Read Section 3.2 *Shear orce and bending moments in beams* and Section 3.3 *Singularity functions*
+* Read Section 3.2 *Shear force and bending moments in beams* and Section 3.3 *Singularity functions*
 
 * [Video: Example 3-02]()
 
