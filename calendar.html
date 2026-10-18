@@ -1,0 +1,240 @@
+---
+layout: default
+title: Course Calendar
+---
+<!-- Events come from _data/calendar.yml (via calendar.ics). Edit that file, not this page. -->
+<style>
+  .cc { --project:#2f6fdb; --homework:#1a8a4a; --quiz:#d9730d; --exam:#c62828; --line:#d0d7de; --muted:#57606a; --today:#fff8c5; }
+  .cc a.cc-back { font-size: 14px; }
+  .cc-sub { border:1px solid var(--line); border-radius:8px; padding:14px 16px; margin:16px 0 24px; background:#f6f8fa; }
+  .cc-sub h3 { margin:0 0 8px; font-size:16px; }
+  .cc-btns { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+  .cc-btn { display:inline-block; padding:6px 12px; border-radius:6px; border:1px solid var(--line); background:#fff; color:#24292f !important; font-size:14px; font-weight:600; cursor:pointer; text-decoration:none !important; }
+  .cc-btn.primary { background:#0f6cbd; border-color:#0f6cbd; color:#fff !important; }
+  .cc-url { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  .cc-url code { font-size:12px; word-break:break-all; }
+  .cc-sub details { font-size:14px; margin-top:6px; }
+  .cc-sub details ol { margin-top:6px; }
+
+  .cc-legend { display:flex; flex-wrap:wrap; gap:14px; font-size:13px; color:var(--muted); margin:0 0 10px; }
+  .cc-legend span::before { content:""; display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; background:var(--c); vertical-align:-1px; }
+
+  .cc-head { display:flex; align-items:center; justify-content:space-between; margin:8px 0; }
+  .cc-head h2 { margin:0 !important; padding:0 !important; border:0 !important; font-size:20px; }
+  .cc-nav { display:flex; gap:6px; }
+
+  .cc-grid { display:grid; grid-template-columns:repeat(7, minmax(0,1fr)); border-top:1px solid var(--line); border-left:1px solid var(--line); }
+  .cc-dow { font-size:12px; font-weight:600; color:var(--muted); text-align:center; padding:4px 0; border-right:1px solid var(--line); border-bottom:1px solid var(--line); background:#f6f8fa; }
+  .cc-day { min-height:96px; padding:4px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); font-size:12px; cursor:default; }
+  .cc-day.out { background:#fafbfc; color:#a0a7af; }
+  .cc-day.today { background:var(--today); }
+  .cc-day.has { cursor:pointer; }
+  .cc-day.sel { outline:2px solid #0f6cbd; outline-offset:-2px; }
+  .cc-num { font-weight:600; margin-bottom:3px; }
+  .cc-chip { display:block; margin-bottom:3px; padding:2px 4px; border-radius:4px; color:#fff; background:var(--c); line-height:1.25; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .cc-dots { display:none; gap:3px; flex-wrap:wrap; }
+  .cc-dots i { width:8px; height:8px; border-radius:50%; background:var(--c); }
+
+  .cc-detail { margin:12px 0 0; }
+  .cc-list { list-style:none; padding:0 !important; margin:8px 0 0; }
+  .cc-list li { display:flex; gap:12px; padding:10px 0; border-bottom:1px solid var(--line); margin:0 !important; }
+  .cc-list li.past { opacity:.55; }
+  .cc-date { flex:0 0 92px; font-size:13px; color:var(--muted); }
+  .cc-date b { display:block; color:#24292f; font-size:15px; }
+  .cc-bar { flex:0 0 4px; border-radius:2px; background:var(--c); }
+  .cc-what { flex:1; min-width:0; }
+  .cc-what strong { display:block; }
+  .cc-meta { font-size:13px; color:var(--muted); }
+  .cc-meta a { word-break:break-all; }
+  .cc-tag { display:inline-block; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:.03em; color:var(--c); margin-right:6px; }
+  .cc-filter { display:flex; flex-wrap:wrap; gap:6px; margin:4px 0; }
+  .cc-filter button { font-size:13px; padding:3px 10px; border-radius:999px; border:1px solid var(--line); background:#fff; cursor:pointer; }
+  .cc-filter button[aria-pressed="true"] { background:#24292f; color:#fff; border-color:#24292f; }
+  .cc-note { font-size:13px; color:var(--muted); }
+
+  @media (max-width: 640px) {
+    .cc-day { min-height:52px; }
+    .cc-chip { display:none; }
+    .cc-dots { display:flex; }
+    .cc-date { flex-basis:72px; }
+  }
+</style>
+
+<div class="cc">
+  <p><a class="cc-back" href="./">← Back to course home</a></p>
+
+  <h1>Course Calendar</h1>
+  <p>Project deliverables, homework due dates, quizzes and the midterm for MECH420, Fall 2026. All times are Beirut time.</p>
+
+  <div class="cc-sub">
+    <h3>Add these dates to your Outlook calendar</h3>
+    <div class="cc-note">Subscribe once and any date changes appear in your calendar automatically.</div>
+    <div class="cc-btns">
+      <a class="cc-btn primary" id="cc-outlook" target="_blank" rel="noopener">Add to Outlook (AUB account)</a>
+      <a class="cc-btn" id="cc-webcal">Open in calendar app (iPhone/Mac)</a>
+      <button class="cc-btn" id="cc-copy" type="button">Copy calendar link</button>
+    </div>
+    <div class="cc-url"><code id="cc-icsurl"></code></div>
+    <details>
+      <summary>Subscribing by hand</summary>
+      <ol>
+        <li><b>Outlook on the web or the new Outlook app:</b> open Calendar → <i>Add calendar</i> → <i>Subscribe from web</i> → paste the link above → name it “MECH420” → <i>Import</i>.</li>
+        <li><b>Classic Outlook for Windows:</b> Calendar → <i>Add Calendar</i> → <i>From Internet…</i> → paste the link.</li>
+        <li><b>iPhone:</b> Settings → Calendar → Accounts → Add Account → Other → <i>Add Subscribed Calendar</i> → paste the link.</li>
+        <li><b>Google Calendar:</b> Other calendars → <i>+</i> → <i>From URL</i> → paste the link.</li>
+      </ol>
+      Outlook checks for updates every few hours, so a change made today may take a while to appear. This page always shows the current dates.
+    </details>
+  </div>
+
+  <div class="cc-legend">
+    <span style="--c:var(--project)">Project deliverable</span>
+    <span style="--c:var(--homework)">Homework</span>
+    <span style="--c:var(--quiz)">Quiz</span>
+    <span style="--c:var(--exam)">Exam</span>
+  </div>
+
+  <div class="cc-head">
+    <h2 id="cc-title">Loading…</h2>
+    <div class="cc-nav">
+      <button class="cc-btn" id="cc-prev" type="button" aria-label="Previous month">‹</button>
+      <button class="cc-btn" id="cc-now" type="button">Today</button>
+      <button class="cc-btn" id="cc-next" type="button" aria-label="Next month">›</button>
+    </div>
+  </div>
+  <div class="cc-grid" id="cc-grid"></div>
+  <div class="cc-detail" id="cc-detail"></div>
+
+  <h2>All dates</h2>
+  <div class="cc-filter" id="cc-filter">
+    <button type="button" data-f="all" aria-pressed="true">All</button>
+    <button type="button" data-f="project" aria-pressed="false">Project</button>
+    <button type="button" data-f="homework" aria-pressed="false">Homework</button>
+    <button type="button" data-f="quiz" aria-pressed="false">Quizzes &amp; exams</button>
+  </div>
+  <ul class="cc-list" id="cc-list"></ul>
+</div>
+
+<script>
+(function () {
+  var ICS = new URL('calendar.ics', location.href).href;
+  var MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  var DOW = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  var events = [], view, selected = null, filter = 'all';
+
+  // Subscribe links
+  document.getElementById('cc-icsurl').textContent = ICS;
+  document.getElementById('cc-webcal').href = ICS.replace(/^https?:/, 'webcal:');
+  document.getElementById('cc-outlook').href =
+    'https://outlook.office.com/calendar/0/addfromweb?url=' + encodeURIComponent(ICS) + '&name=' + encodeURIComponent('MECH420 Fall 2026');
+  document.getElementById('cc-copy').onclick = function () {
+    var b = this;
+    try {
+      navigator.clipboard.writeText(ICS).then(function () { b.textContent = 'Copied!'; setTimeout(function () { b.textContent = 'Copy calendar link'; }, 1600); });
+    } catch (e) { window.prompt('Copy this link:', ICS); }
+  };
+
+  // Minimal parser for the calendar.ics this site generates
+  function parseICS(text) {
+    var lines = text.replace(/\r\n[ \t]/g, '').split(/\r?\n/), out = [], cur = null;
+    var un = function (s) { return s.replace(/\\n/gi, '\n').replace(/\\([,;\\])/g, '$1'); };
+    lines.forEach(function (line) {
+      if (line === 'BEGIN:VEVENT') { cur = {}; return; }
+      if (line === 'END:VEVENT') { if (cur) out.push(cur); cur = null; return; }
+      if (!cur) return;
+      var i = line.indexOf(':'); if (i < 0) return;
+      var key = line.slice(0, i).split(';')[0], val = line.slice(i + 1);
+      if (key === 'DTSTART' || key === 'DTEND') {
+        var m = val.match(/^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2}))?/);
+        cur[key] = { y: +m[1], mo: +m[2] - 1, d: +m[3], h: m[4], mi: m[5] };
+      } else cur[key] = un(val);
+    });
+    return out.map(function (e) {
+      var s = e.DTSTART;
+      return {
+        title: (e.SUMMARY || '').replace(/^MECH420:\s*/, ''),
+        type: (e.CATEGORIES || '').toLowerCase(),
+        date: new Date(s.y, s.mo, s.d),
+        start: s.h ? s.h + ':' + s.mi : null,
+        end: e.DTEND && e.DTEND.h ? e.DTEND.h + ':' + e.DTEND.mi : null,
+        location: e.LOCATION || '',
+        details: (e.DESCRIPTION || '').split('\n\n').filter(function (p) { return p && !/^Course calendar:/.test(p) && !/^https?:\/\//.test(p); }).join(' '),
+        link: e.URL || ''
+      };
+    }).sort(function (a, b) { return a.date - b.date || (a.start || '').localeCompare(b.start || ''); });
+  }
+
+  function key(d) { return d.getFullYear() + '-' + d.getMonth() + '-' + d.getDate(); }
+  function color(t) { return 'var(--' + (t || 'project') + ')'; }
+  function fmt12(t) { if (!t) return ''; var h = +t.slice(0, 2), m = t.slice(3); return ((h + 11) % 12 + 1) + ':' + m + (h < 12 ? ' AM' : ' PM'); }
+  function when(e) { return e.start ? fmt12(e.start) + (e.end ? '–' + fmt12(e.end) : '') : 'Due (all day)'; }
+  function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+  function today() { var t = new Date(); return new Date(t.getFullYear(), t.getMonth(), t.getDate()); }
+
+  function item(e) {
+    var past = e.date < today();
+    return '<li class="' + (past ? 'past' : '') + '" style="--c:' + color(e.type) + '">' +
+      '<div class="cc-date"><b>' + e.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) + '</b>' +
+      e.date.toLocaleDateString('en-US', { weekday: 'long' }) + '</div>' +
+      '<div class="cc-bar"></div><div class="cc-what">' +
+      '<span class="cc-tag">' + esc(e.type) + '</span><strong>' + esc(e.title) + '</strong>' +
+      '<div class="cc-meta">' + esc(when(e)) + (e.location ? ' · ' + esc(e.location) : '') + '</div>' +
+      (e.details ? '<div class="cc-meta">' + esc(e.details) + '</div>' : '') +
+      (e.link ? '<div class="cc-meta"><a href="' + esc(e.link) + '" target="_blank" rel="noopener">Details</a></div>' : '') +
+      '</div></li>';
+  }
+
+  function renderMonth() {
+    var y = view.getFullYear(), m = view.getMonth();
+    document.getElementById('cc-title').textContent = MONTHS[m] + ' ' + y;
+    var byDay = {};
+    events.forEach(function (e) { (byDay[key(e.date)] = byDay[key(e.date)] || []).push(e); });
+    var first = new Date(y, m, 1), offset = (first.getDay() + 6) % 7;
+    var start = new Date(y, m, 1 - offset), tk = key(today());
+    var html = DOW.map(function (d) { return '<div class="cc-dow">' + d + '</div>'; }).join('');
+    var weeks = Math.ceil((offset + new Date(y, m + 1, 0).getDate()) / 7);
+    for (var i = 0; i < weeks * 7; i++) {
+      var d = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i), k = key(d), evs = byDay[k] || [];
+      var cls = 'cc-day' + (d.getMonth() !== m ? ' out' : '') + (k === tk ? ' today' : '') + (evs.length ? ' has' : '') + (k === selected ? ' sel' : '');
+      html += '<div class="' + cls + '" data-k="' + k + '"' + (evs.length ? ' tabindex="0" role="button"' : '') + '><div class="cc-num">' + d.getDate() + '</div>' +
+        evs.map(function (e) { return '<span class="cc-chip" style="--c:' + color(e.type) + '" title="' + esc(e.title) + '">' + esc(e.title) + '</span>'; }).join('') +
+        '<div class="cc-dots">' + evs.map(function (e) { return '<i style="--c:' + color(e.type) + '"></i>'; }).join('') + '</div></div>';
+    }
+    var grid = document.getElementById('cc-grid');
+    grid.innerHTML = html;
+    grid.querySelectorAll('.cc-day.has').forEach(function (el) {
+      var pick = function () { selected = selected === el.dataset.k ? null : el.dataset.k; renderMonth(); };
+      el.onclick = pick; el.onkeydown = function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); pick(); } };
+    });
+    var det = document.getElementById('cc-detail');
+    det.innerHTML = selected && byDay[selected] ? '<ul class="cc-list">' + byDay[selected].map(item).join('') + '</ul>' : '';
+  }
+
+  function renderList() {
+    var list = events.filter(function (e) {
+      return filter === 'all' || e.type === filter || (filter === 'quiz' && e.type === 'exam');
+    });
+    document.getElementById('cc-list').innerHTML = list.map(item).join('') || '<li>No items.</li>';
+  }
+
+  document.getElementById('cc-filter').onclick = function (ev) {
+    var b = ev.target.closest('button'); if (!b) return;
+    filter = b.dataset.f;
+    this.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b); });
+    renderList();
+  };
+  document.getElementById('cc-prev').onclick = function () { view = new Date(view.getFullYear(), view.getMonth() - 1, 1); selected = null; renderMonth(); };
+  document.getElementById('cc-next').onclick = function () { view = new Date(view.getFullYear(), view.getMonth() + 1, 1); selected = null; renderMonth(); };
+  document.getElementById('cc-now').onclick = function () { var t = today(); view = new Date(t.getFullYear(), t.getMonth(), 1); selected = null; renderMonth(); };
+
+  fetch(ICS, { cache: 'no-cache' }).then(function (r) { return r.text(); }).then(function (t) {
+    events = parseICS(t);
+    var t0 = today(), first = events[0] ? events[0].date : t0, last = events.length ? events[events.length - 1].date : t0;
+    var anchor = t0 < first ? first : t0 > last ? last : t0;
+    view = new Date(anchor.getFullYear(), anchor.getMonth(), 1);
+    renderMonth(); renderList();
+  }).catch(function () {
+    document.getElementById('cc-title').textContent = 'Could not load the calendar.';
+  });
+})();
+</script>

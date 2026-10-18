@@ -1,0 +1,94 @@
+# MECH420 course calendar — the ONLY file you need to edit.
+#
+# Every entry here appears on the website's Calendar page AND in the
+# Outlook / phone calendar feed (calendar.ics). Commit and push; GitHub Pages
+# rebuilds in a minute or two. Outlook refreshes subscribed calendars on its
+# own schedule (usually within a few hours).
+#
+# Fields
+#   title     (required)  short name shown on the calendar
+#   date      (required)  YYYY-MM-DD
+#   type      (required)  one of: project, homework, quiz, exam
+#   start/end (optional)  24-hour "HH:MM" Beirut time; leave out for an all-day item
+#   location  (optional)
+#   details   (optional)  one line; avoid line breaks
+#   link      (optional)  URL to the handout, submission page, etc.
+#
+# Keep a title+date+type combination unique: it identifies the event in
+# students' calendars, so changing the date of an existing item moves it.
+
+# ---------- Homework ----------
+- title: HW1 due
+  date: 2026-09-19
+  type: homework
+
+- title: HW2 due
+  date: 2026-10-03
+  type: homework
+
+- title: HW3 due
+  date: 2026-10-28
+  type: homework
+
+# ---------- Quizzes & exams ----------
+- title: Quiz (50 min)
+  date: 2026-09-21
+  type: quiz
+  start: "12:30"
+  end: "13:20"
+  location: Bechtel 202
+  details: No lecture. Covers Ch5 static failure theories.
+
+- title: Quiz (50 min)
+  date: 2026-09-23
+  type: quiz
+  start: "12:30"
+  end: "13:20"
+  location: Bechtel 202
+  details: No lecture. Covers Ch5 static failure theories.
+
+- title: Quiz — Ch7
+  date: 2026-10-21
+  type: quiz
+  start: "12:30"
+  end: "13:45"
+  location: IOEC224B
+  details: Covers Chapter 7 (shafts and shaft components).
+
+- title: Midterm exam
+  date: 2026-10-24
+  type: exam
+  start: "08:00"
+  end: "10:00"
+  location: ELH
+
+# ---------- Project ----------
+- title: Project Report 1 – Concept
+  date: 2026-10-07
+  type: project
+  details: Benchmark review, team requirements, comparison of 3+ motion architectures, selected concept.
+  link: https://drive.google.com/file/d/10B2SF8huNf8F1u6zZ09OYmAAV8idkDYt/view?usp=sharing
+
+- title: Project Report 2 – Preliminary design
+  date: 2026-10-21
+  type: project
+  details: Full CAD assembly, load cases, hand calculations, preliminary BOM. Report on Overleaf; CAD + video (under 6 min) on Gradescope.
+  link: https://drive.google.com/file/d/10B2SF8huNf8F1u6zZ09OYmAAV8idkDYt/view?usp=sharing
+
+- title: Project Report 3 – Detailed design & design freeze
+  date: 2026-11-04
+  type: project
+  details: FEA with mesh convergence, fatigue analysis, tolerances and fits, final BOM and manufacturing plan.
+  link: https://drive.google.com/file/d/10B2SF8huNf8F1u6zZ09OYmAAV8idkDYt/view?usp=sharing
+
+- title: Project Report 4 – Build progress
+  date: 2026-11-18
+  type: project
+  details: Frame assembled with at least one axis moving, test plan, design iteration log.
+  link: https://drive.google.com/file/d/10B2SF8huNf8F1u6zZ09OYmAAV8idkDYt/view?usp=sharing
+
+- title: Final project presentation
+  date: 2026-12-02
+  type: project
+  details: Prototype demonstration, poster and competition.
+  link: https://drive.google.com/file/d/10B2SF8huNf8F1u6zZ09OYmAAV8idkDYt/view?usp=sharing

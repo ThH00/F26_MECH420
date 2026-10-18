@@ -1,0 +1,57 @@
+---
+layout: null
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AUB MECH420//Course Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MECH420 Fall 2026
+X-WR-TIMEZONE:Asia/Beirut
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VTIMEZONE
+TZID:Asia/Beirut
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T000000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T000000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+{%- assign stamp = site.time | date: "%Y%m%dT%H%M%SZ" %}
+{%- for e in site.data.calendar %}
+{%- assign d = e.date | date: "%Y%m%d" %}
+BEGIN:VEVENT
+UID:{{ d }}-{{ e.type }}-{{ e.title | replace: " ", "-" | replace: ",", "" | replace: ";", "" }}@mech420-f26
+DTSTAMP:{{ stamp }}
+{%- if e.start %}
+DTSTART;TZID=Asia/Beirut:{{ d }}T{{ e.start | remove: ":" }}00
+DTEND;TZID=Asia/Beirut:{{ d }}T{{ e.end | default: e.start | remove: ":" }}00
+{%- else %}
+DTSTART;VALUE=DATE:{{ d }}
+DURATION:P1D
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+{%- endif %}
+SUMMARY:MECH420: {{ e.title | replace: ",", "\," | replace: ";", "\;" }}
+CATEGORIES:{{ e.type | capitalize }}
+{%- if e.location %}
+LOCATION:{{ e.location | replace: ",", "\," | replace: ";", "\;" }}
+{%- endif %}
+DESCRIPTION:{% if e.details %}{{ e.details | replace: ",", "\," | replace: ";", "\;" }}\n\n{% endif %}{% if e.link %}{{ e.link }}\n\n{% endif %}Course calendar: {{ site.github.url | default: "https://thh00.github.io/F26_MECH420" }}/calendar.html
+{%- if e.link %}
+URL:{{ e.link }}
+{%- endif %}
+END:VEVENT
+{%- endfor %}
+END:VCALENDAR

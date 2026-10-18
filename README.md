@@ -6,6 +6,7 @@
 - Office Hours: TR 11am-12:30 PM, W2-5PM Bechtel 532
 - [Syllabus](https://drive.google.com/file/d/1WrSCfRxP2NmnjPp66QRe3qVlWm-hRw1P/view?usp=sharing)
 - Midterm: October 24, 2026 at 8-10am in ELH
+- 📅 [Course Calendar](calendar.html): all project deliverables, homework due dates, quizzes and exams. [Subscribe in Outlook](calendar.html) to get them in your own calendar.
 
 ## Course Content
 
