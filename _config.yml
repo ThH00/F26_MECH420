@@ -21,9 +21,9 @@ nav:
   - label: Practice & Quizzes
     url: /practice.html
     match: /practice.html
-  - label: Policies
-    url: /policies.html
-    match: /policies.html
+  - label: Syllabus
+    url: /syllabus.html
+    match: /syllabus.html
   - label: Resources
     url: /resources.html
     match: /resources.html

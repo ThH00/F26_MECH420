@@ -1,10 +1,10 @@
 ---
-title: Course Policies
+title: Syllabus
 ---
 
-# Course Policies
+# Syllabus
 
-The key rules from the syllabus, in one place. The [full syllabus (PDF)](https://drive.google.com/file/d/1WrSCfRxP2NmnjPp66QRe3qVlWm-hRw1P/view?usp=sharing) is the official version.
+A summary of the course syllabus. The [full syllabus (PDF)](https://drive.google.com/file/d/1WrSCfRxP2NmnjPp66QRe3qVlWm-hRw1P/view?usp=sharing) is the official version.
 
 ## Contacts
 
