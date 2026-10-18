@@ -2,11 +2,7 @@
 
 ## Course Content
 
-📅 [Course Calendar](calendar.html) · **[Jump to this week ↓](#this-week)**
-
-The calendar lists every project deliverable, homework due date, quiz and exam. [Subscribe in Outlook](calendar.html) to get them in your own calendar.
-
-*Lectures from Week 9 onward are planned and may shift.*
+**[Jump to this week ↓](#this-week)**
 
 | Week | Date  | Lecture Topics | Textbook Reading (based on 11th edition) | Handouts      | HW |
 |----|-------|----------------|------------------|---------------|----|
@@ -40,3 +36,5 @@ The calendar lists every project deliverable, homework due date, quiz and exam. 
 | 13 | W 11/25 | Mechanical Springs: Stresses in Helical Springs, Curvature Effect, Deflection, Compression Springs, Stability | 10.1-10.5 | | |
 | 14 | M 11/30 | Spring Materials, Helical Compression Spring Design for Static Service, Critical Frequency, Fatigue Loading of Springs | 10.6-10.10 | | |
 | 14 | W 12/02 | **Final project presentations**: prototype demonstration, poster and competition. Last day of class. | | | |
+
+*Lectures from Week 9 onward are planned and may shift.*
