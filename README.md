@@ -1,14 +1,12 @@
 # Fall 2026 MECH420 Course Website
 
-## Course Details
-- Instructor: Theresa Honein
-- Lecture Time: MW 12:30–1:45 PM IOEC224B
-- Office Hours: TR 11am-12:30 PM, W2-5PM Bechtel 532
-- [Syllabus](https://drive.google.com/file/d/1WrSCfRxP2NmnjPp66QRe3qVlWm-hRw1P/view?usp=sharing)
-- Midterm: October 24, 2026 at 8-10am in ELH
-- 📅 [Course Calendar](calendar.html): all project deliverables, homework due dates, quizzes and exams. [Subscribe in Outlook](calendar.html) to get them in your own calendar.
-
 ## Course Content
+
+📅 [Course Calendar](calendar.html) · **[Jump to this week ↓](#this-week)**
+
+The calendar lists every project deliverable, homework due date, quiz and exam. [Subscribe in Outlook](calendar.html) to get them in your own calendar.
+
+*Lectures from Week 9 onward are planned and may shift.*
 
 | Week | Date  | Lecture Topics | Textbook Reading (based on 11th edition) | Handouts      | HW |
 |----|-------|----------------|------------------|---------------|----|
@@ -29,3 +27,16 @@
 | 7 | W 10/14 | Quiz 4 (Ch6). Deflection Considerations | 7.4-7.5 | | HW3 due on October 28 |
 | 8 | M 10/19 | Limits and Fits | 7.8 | | |
 | 8 | W 10/21 | Quiz covering Ch7 | 7.8 | | |
+| 8 | Sa 10/24 | **Midterm exam**, 8:00–10:00 AM, ELH | | | |
+| 9 | M 10/26 | Screws and Fasteners: Thread Standards and Definitions, Mechanics of Power Screws | 8.1-8.2 | | |
+| 9 | W 10/28 | Threaded Fasteners, Joints: Fastener Stiffness, Joints: Member Stiffness | 8.3-8.5 | | |
+| 10 | M 11/02 | Bolt Strength, Tension Joints: The External Load, Relating Bolt Torque to Bolt Tension | 8.6-8.8 | | |
+| 10 | W 11/04 | Statically Loaded Tension Joint with Preload, Gasketed Joints | 8.9-8.10 | | |
+| 11 | M 11/09 | Fatigue Loading of Tension Joints, Bolted and Riveted Joints Loaded in Shear | 8.11-8.12 | | |
+| 11 | W 11/11 | Rolling-Contact Bearings: Bearing Types, Bearing Life, Bearing Load-Life at Rated Reliability | 11.1-11.3 | | |
+| 12 | M 11/16 | Reliability versus Life (Weibull), Relating Load, Life and Reliability, Combined Radial and Thrust Loading | 11.4-11.6 | | |
+| 12 | W 11/18 | Variable Loading, Selection of Ball and Cylindrical Roller Bearings | 11.7-11.8 | | |
+| 13 | M 11/23 | Selection of Tapered Roller Bearings, Design Assessment, Lubrication, Mounting and Enclosure | 11.9-11.12 | | |
+| 13 | W 11/25 | Mechanical Springs: Stresses in Helical Springs, Curvature Effect, Deflection, Compression Springs, Stability | 10.1-10.5 | | |
+| 14 | M 11/30 | Spring Materials, Helical Compression Spring Design for Static Service, Critical Frequency, Fatigue Loading of Springs | 10.6-10.10 | | |
+| 14 | W 12/02 | **Final project presentations**: prototype demonstration, poster and competition. Last day of class. | | | |
