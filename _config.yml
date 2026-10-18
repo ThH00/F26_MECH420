@@ -1,0 +1,22 @@
+title: "MECH 420 · Mechanical Design I"
+description: "Fall 2026 · American University of Beirut · Instructor: Theresa Honein"
+lang: en-US
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+  - jekyll-relative-links
+
+# Sidebar links, shown on every page. (The Gradescope button is in _layouts/default.html.) Order = order on screen.
+# `match` is the page URL that highlights the link as "current".
+nav:
+  - label: Schedule
+    url: /
+    match: /
+  - label: Calendar
+    url: /calendar.html
+    match: /calendar.html
+  - label: Project
+    url: /#project-deliverables-overview
+  - label: Policies
+    url: /policies.html
+    match: /policies.html
