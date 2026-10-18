@@ -68,7 +68,7 @@ You may withdraw from only one required course per semester without petitioning 
 
 ## Software
 
-You are expected to use software tools (MATLAB, Excel, SolidWorks, etc.) to analyze, synthesize and simulate designs. See the [Ansys student license instructions](./#instructions-to-download-ansys---student-license) on the home page.
+You are expected to use software tools (MATLAB, Excel, SolidWorks, etc.) to analyze, synthesize and simulate designs. See the [Ansys student license instructions](resources.html#ansys-student-license) on the home page.
 
 ## Accessibility
 

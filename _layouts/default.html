@@ -22,9 +22,7 @@
     .nav a { display:block; padding:7px 10px; border-radius:6px; color:var(--ink) !important; font-size:15px; text-decoration:none !important; }
     .nav a:hover { background:#efe7e3; }
     .nav a.on { background:#fff; font-weight:600; box-shadow:inset 3px 0 0 var(--brand); }
-    .gs { display:block; text-align:center; padding:11px 12px; border-radius:8px; background:var(--brand); color:#fff !important; font-weight:600; font-size:15px; text-decoration:none !important; }
-    .gs:hover { background:var(--brand-dark); }
-    .gs small { display:block; font-weight:400; font-size:12px; opacity:.85; margin-top:2px; }
+    .sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
     .info { font-size:13px; color:var(--muted); line-height:1.5; }
     .info b { color:var(--ink); font-weight:600; display:block; margin-top:8px; }
     .info b:first-child { margin-top:0; }
@@ -61,15 +59,11 @@
           <span class="term">Fall 2026 · AUB</span>
         </a>
 
-        <a class="gs" href="https://www.gradescope.com/courses/1370072" target="_blank" rel="noopener">
-          Go to Gradescope ↗
-          <small>Submit homework &amp; quizzes</small>
-        </a>
 
         <nav class="nav" aria-label="Site">
           {% for item in site.nav %}
-            {% if item.external %}{% continue %}{% endif %}
             {% assign href = item.url | relative_url %}
+            {% if item.external %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.label }} <span aria-hidden="true">↗</span><span class="sr">(opens in a new tab)</span></a>{% continue %}{% endif %}
             <a href="{{ href }}"{% if item.match and page.url == item.match %} class="on" aria-current="page"{% elsif item.match == '/' and page.url == '/index.html' %} class="on" aria-current="page"{% endif %}>{{ item.label }}</a>
           {% endfor %}
         </nav>

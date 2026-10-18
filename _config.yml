@@ -6,8 +6,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-relative-links
 
-# Sidebar links, shown on every page. (The Gradescope button is in _layouts/default.html.) Order = order on screen.
-# `match` is the page URL that highlights the link as "current".
+# Sidebar links, shown on every page. Order = order on screen.
+# `external: true` opens in a new tab. `match` is the page URL that highlights the link as "current".
 nav:
   - label: Schedule
     url: /
@@ -16,7 +16,17 @@ nav:
     url: /calendar.html
     match: /calendar.html
   - label: Project
-    url: /#project-deliverables-overview
+    url: /project.html
+    match: /project.html
+  - label: Practice & Quizzes
+    url: /practice.html
+    match: /practice.html
   - label: Policies
     url: /policies.html
     match: /policies.html
+  - label: Resources
+    url: /resources.html
+    match: /resources.html
+  - label: Gradescope
+    url: https://www.gradescope.com/courses/1370072
+    external: true
