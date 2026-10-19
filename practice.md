@@ -19,10 +19,6 @@ title: Practice Problems & Quizzes
 
 ## Useful Videos
 
-<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%; margin-bottom:16px;">
-  <iframe src="https://www.youtube-nocookie.com/embed/qiFdls4aFsw"
-          title="Useful video"
-          style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy"></iframe>
-</div>
+{% include youtube.html id="qiFdls4aFsw" %}
+
+{% include youtube.html id="psXQs4M4ULI" %}

@@ -1,0 +1,12 @@
+{%- comment -%}
+  Embeds a YouTube video. Usage in any page:
+    {% include youtube.html id="VIDEO_ID" title="Short description" %}
+  The VIDEO_ID is the part after youtu.be/ (or after watch?v=).
+{%- endcomment -%}
+<figure class="yt">
+  <button type="button" class="yt-play" data-id="{{ include.id }}" aria-label="Play video: {{ include.title | default: 'YouTube video' }}">
+    <img src="https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg" alt="" loading="lazy">
+    <span class="yt-icon" aria-hidden="true"></span>
+  </button>
+  <figcaption>{% if include.title %}{{ include.title }} · {% endif %}<a href="https://www.youtube.com/watch?v={{ include.id }}" target="_blank" rel="noopener">Open on YouTube ↗</a></figcaption>
+</figure>
