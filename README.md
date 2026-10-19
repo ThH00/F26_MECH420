@@ -21,8 +21,8 @@
 | 6 | W 10/07 | Characterizing fluctuating stresses, Fatigue failure criteria for fluctuating stresses, Combination of Loading Notes | 6.11-6.12, 6.14 | | |
 | 7 | M 10/12 | Quiz 3 (drop quiz). Intro to Shafts and Components, Shaft Materials, Shaft Layout, Shaft Design for Stress | 7.1-7.4 | [Ch7 lecture notes](https://drive.google.com/file/d/1lIuOn_kNjLLd5RGKKooTMUwj644VgVvq/view?usp=sharing) | |
 | 7 | W 10/14 | Quiz 4 (Ch6). Deflection Considerations | 7.4-7.5 | | HW3 due on October 28 |
-| 8 | M 10/19 | Limits and Fits | 7.8 | | |
-| 8 | W 10/21 | Quiz covering Ch7 | 7.8 | | |
+| 8 | M 10/19 | Deflection Considerations, Limits and Fits | 7.8 | | |
+| 8 | W 10/21 | Limits and Fits | 7.8 | | |
 | 8 | Sa 10/24 | **Midterm exam**, 8:00–10:00 AM, ELH | | | |
 | 9 | M 10/26 | Screws and Fasteners: Thread Standards and Definitions, Mechanics of Power Screws | 8.1-8.2 | | |
 | 9 | W 10/28 | Threaded Fasteners, Joints: Fastener Stiffness, Joints: Member Stiffness | 8.3-8.5 | | |
