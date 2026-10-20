@@ -1,12 +1,9 @@
 {%- comment -%}
-  Embeds a YouTube video. Usage in any page:
-    {% include youtube.html id="VIDEO_ID" title="Short description" %}
+  Embeds a YouTube video (standard YouTube player, shows the video title).
+  Usage in any page:
+    {% include youtube.html id="VIDEO_ID" %}
   The VIDEO_ID is the part after youtu.be/ (or after watch?v=).
 {%- endcomment -%}
-<figure class="yt">
-  <button type="button" class="yt-play" data-id="{{ include.id }}" aria-label="Play video: {{ include.title | default: 'YouTube video' }}">
-    <img src="https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg" alt="" loading="lazy">
-    <span class="yt-icon" aria-hidden="true"></span>
-  </button>
-  <figcaption>{% if include.title %}{{ include.title }} · {% endif %}<a href="https://www.youtube.com/watch?v={{ include.id }}" target="_blank" rel="noopener">Open on YouTube ↗</a></figcaption>
-</figure>
+<div class="yt">
+  <iframe src="https://www.youtube.com/embed/{{ include.id }}" title="{{ include.title | default: 'YouTube video player' }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

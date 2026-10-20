@@ -63,6 +63,14 @@
   location: IOEC224B
   details: Multiple-choice quiz on Chapter 6 (fatigue).
 
+- title: Quiz 5 — Ch7
+  date: 2026-10-21
+  type: quiz
+  start: "12:30"
+  end: "13:45"
+  location: IOEC224B
+  details: Covers Chapter 7 (shafts and shaft components).
+
 - title: Midterm exam
   date: 2026-10-24
   type: exam
