@@ -18,6 +18,11 @@ title: Practice Problems & Quizzes
 - Chapter 5: [Quiz 1 - Chalk vs. Whiteboard Marker](https://drive.google.com/file/d/1yAsIXkrn1lBv0y3xWQ28QC1h6Kqbdcfj/view?usp=sharing), [Quiz 2 - Failure Theories Drill](https://drive.google.com/file/d/1AOoD4kHD9f6PN9NL-nMiFbiNfvS6ayHN/view?usp=sharing)
 - Chapter 6: [Quiz 4 - MCQ](https://drive.google.com/file/d/1OPr03xOPVCgECjSFBa63qqHW3RO86jWR/view?usp=sharing) & [Solutions](https://drive.google.com/file/d/1vP-XQwgyLlNtufuTVCd4oLLX7KS0yAsV/view?usp=sharing)
 
+## Previous Exams
+
+- [Midterm Formula Sheet](files/exams/midterm-formula-sheet.pdf)
+- Fall 2023 Midterm: [Exam](files/exams/midterm-fall2023.pdf) & [Solutions](files/exams/midterm-fall2023-solution.pdf)
+
 ## Useful Videos
 
 {% include youtube.html id="qiFdls4aFsw" %}
