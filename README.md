@@ -24,17 +24,17 @@
 | 8 | M 10/19 | Deflection Considerations, Limits and Fits | 7.8 | | |
 | 8 | W 10/21 | Quiz 5 (Ch7). Limits and Fits | 7.8 | | |
 | 8 | Sa 10/24 | **Midterm exam**, 8:00–10:00 AM, ELH | | | |
-| 9 | M 10/26 | Chapter 7 review & Case Study | Ch. 7 | | |
-| 9 | W 10/28 | Screws and Fasteners: Thread Standards and Definitions, Mechanics of Power Screws, Threaded Fasteners, Joints: Fastener and Member Stiffness | 8.1-8.5 | | |
-| 10 | M 11/02 | Bolt Strength, Tension Joints: The External Load, Relating Bolt Torque to Bolt Tension, Statically Loaded Tension Joint with Preload, Fatigue Loading of Tension Joints, Bolted and Riveted Joints Loaded in Shear | 8.6-8.12 | | |
-| 10 | W 11/04 | Rolling-Contact Bearings: Bearing Types, Bearing Life, Bearing Load-Life at Rated Reliability | 11.1-11.3 | | |
-| 11 | M 11/09 | Reliability versus Life (Weibull), Relating Load, Life and Reliability, Combined Radial and Thrust Loading | 11.4-11.6 | | |
-| 11 | W 11/11 | Variable Loading, Selection of Ball and Cylindrical Roller Bearings | 11.7-11.8 | | |
-| 12 | M 11/16 | Selection of Tapered Roller Bearings, Design Assessment, Lubrication, Mounting and Enclosure | 11.9-11.12 | | |
-| 12 | W 11/18 | Mechanical Springs or Gears (topic to be announced), Part 1 | Ch. 10 or Ch. 13 | | |
+| 9 | M 10/26 | Shaft Design Case Study, Part 1 | Ch. 7 | | |
+| 9 | W 10/28 | Shaft Design Case Study, Part 2 | Ch. 7 | | |
+| 10 | M 11/02 | Rolling-Contact Bearings: Bearing Types, Bearing Life, Bearing Load-Life at Rated Reliability | 11.1-11.3 | | |
+| 10 | W 11/04 | Reliability versus Life (Weibull), Relating Load, Life and Reliability, Combined Radial and Thrust Loading | 11.4-11.6 | | |
+| 11 | M 11/09 | Variable Loading, Selection of Ball and Cylindrical Roller Bearings | 11.7-11.8 | | |
+| 11 | W 11/11 | Selection of Tapered Roller Bearings, Design Assessment, Lubrication, Mounting and Enclosure | 11.9-11.12 | | |
+| 12 | M 11/16 | Screws: Thread Standards and Definitions, Mechanics of Power Screws | 8.1-8.2 | | |
+| 12 | W 11/18 | Gears: Types of Gears, Nomenclature, Tooth Systems, Gear Trains | 13.1-13.5, 13.12-13.13 | | |
 | 13 | M 11/23 | **No class**: Independence Day | | | |
-| 13 | W 11/25 | Mechanical Springs or Gears (topic to be announced), Part 2 | Ch. 10 or Ch. 13 | | |
-| 14 | M 11/30 | Introduction to Finite Element Analysis | Ch. 19 | | |
+| 13 | W 11/25 | Force Analysis: Spur Gears and Helical Gears | 13.14, 13.16 | | |
+| 14 | M 11/30 | Force Analysis: Bevel Gears and Worm Gears | 13.15, 13.17 | | |
 | 14 | W 12/02 | **Final project presentations**: prototype demonstration, poster and competition. Last day of class. | | | |
 
 *Lectures from Week 9 onward are planned and may shift.*
