@@ -24,7 +24,7 @@
 | 8 | M 10/19 | Deflection Considerations, Limits and Fits | 7.8 | | |
 | 8 | W 10/21 | Quiz 5 (Ch7). Limits and Fits | 7.8 | | |
 | 8 | Sa 10/24 | **Midterm exam**, 8:00–10:00 AM, ELH | | | |
-| 9 | M 10/26 | Shaft Design Case Study, Part 1 | Ch. 7 | | |
+| 9 | M 10/26 | Quiz 6 (drop quiz). Shaft Design Case Study, Part 1 | Ch. 7 | | |
 | 9 | W 10/28 | Shaft Design Case Study, Part 2 | Ch. 7 | | |
 | 10 | M 11/02 | Rolling-Contact Bearings: Bearing Types, Bearing Life, Bearing Load-Life at Rated Reliability | 11.1-11.3 | | |
 | 10 | W 11/04 | Reliability versus Life (Weibull), Relating Load, Life and Reliability, Combined Radial and Thrust Loading | 11.4-11.6 | | |
