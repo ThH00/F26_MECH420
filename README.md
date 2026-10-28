@@ -26,7 +26,7 @@
 | 8 | Sa 10/24 | **Midterm exam**, 8:00–10:00 AM, ELH | | | |
 | 9 | M 10/26 | Quiz 6 (drop quiz). Shaft Design Case Study, Part 1 | Ch. 7 | | |
 | 9 | W 10/28 | Shaft Design Case Study, Part 2 | Ch. 7 | | |
-| 10 | M 11/02 | Rolling-Contact Bearings: Bearing Types, Bearing Life, Bearing Load-Life at Rated Reliability | 11.1-11.3 | | |
+| 10 | M 11/02 | Rolling-Contact Bearings: Bearing Types, Bearing Life, Bearing Load-Life at Rated Reliability | 11.1-11.3 | [Bearing types (interactive page)](files/lectures/ch11-bearing-types.html) | |
 | 10 | W 11/04 | Reliability versus Life (Weibull), Relating Load, Life and Reliability, Combined Radial and Thrust Loading | 11.4-11.6 | | |
 | 11 | M 11/09 | Variable Loading, Selection of Ball and Cylindrical Roller Bearings | 11.7-11.8 | | |
 | 11 | W 11/11 | Selection of Tapered Roller Bearings, Design Assessment, Lubrication, Mounting and Enclosure | 11.9-11.12 | | |
