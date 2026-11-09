@@ -165,7 +165,7 @@ title: Course Calendar
   function key(d) { return d.getFullYear() + '-' + d.getMonth() + '-' + d.getDate(); }
   function color(t) { return 'var(--' + (t || 'project') + ')'; }
   function fmt12(t) { if (!t) return ''; var h = +t.slice(0, 2), m = t.slice(3); return ((h + 11) % 12 + 1) + ':' + m + (h < 12 ? ' AM' : ' PM'); }
-  function when(e) { return e.start ? fmt12(e.start) + (e.end ? '–' + fmt12(e.end) : '') : 'Due (all day)'; }
+  function when(e) { return e.start ? (e.end && e.end !== e.start ? fmt12(e.start) + '–' + fmt12(e.end) : 'Due ' + fmt12(e.start)) : 'Due (all day)'; }
   function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
   function today() { var t = new Date(); return new Date(t.getFullYear(), t.getMonth(), t.getDate()); }
 

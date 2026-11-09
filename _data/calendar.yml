@@ -79,6 +79,14 @@
   location: IOEC224B
   details: Unannounced in-class quiz.
 
+- title: Ch11 quiz/HW due (Gradescope)
+  date: 2026-11-10
+  type: homework
+  start: "14:00"
+  end: "14:00"
+  details: Short quiz/homework on Chapter 11 (rolling-contact bearings). Submit on Gradescope by 2:00 PM.
+  link: https://www.gradescope.com/courses/1370072
+
 - title: Midterm exam
   date: 2026-10-24
   type: exam

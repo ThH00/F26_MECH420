@@ -28,13 +28,13 @@
 | 9 | W 10/28 | Shaft Design Case Study, Part 2 | Ch. 7 | | |
 | 10 | M 11/02 | Rolling-Contact Bearings: Bearing Types, Bearing Life, Bearing Load-Life at Rated Reliability | 11.1-11.3 | [Ch11 Slides](https://docs.google.com/presentation/d/1SMSdtZo6ndZZ9aSHWAGssM36WHJyhDRX/edit?usp=sharing&ouid=104978120971085325751&rtpof=true&sd=true), [Ch11 Notes](https://drive.google.com/file/d/1Qcd-G2697xCSik9fy8odcw8vaA9gn5eo/view?usp=sharing) | |
 | 10 | W 11/04 | Reliability versus Life (Weibull), Relating Load, Life and Reliability, Combined Radial and Thrust Loading | 11.4-11.6 | | |
-| 11 | M 11/09 | Variable Loading, Selection of Ball and Cylindrical Roller Bearings | 11.7-11.8 | | |
-| 11 | W 11/11 | Selection of Tapered Roller Bearings, Design Assessment, Lubrication, Mounting and Enclosure | 11.9-11.12 | | |
-| 12 | M 11/16 | Screws: Thread Standards and Definitions, Mechanics of Power Screws | 8.1-8.2 | | |
-| 12 | W 11/18 | Gears: Types of Gears, Nomenclature, Tooth Systems, Gear Trains | 13.1-13.5, 13.12-13.13 | | |
+| 11 | M 11/09 | Variable Loading, Selection of Ball, Cylindrical and Tapered Roller Bearings, Design Assessment (end of Ch11) | 11.7-11.10 | | Ch11 quiz/HW due Tue 11/10 at 2:00 PM on Gradescope |
+| 11 | W 11/11 | Gears: Types of Gears, Nomenclature, Conjugate Action, Tooth Systems, Gear Trains | 13.1-13.5, 13.12-13.13 | | |
+| 12 | M 11/16 | Force Analysis: Spur, Bevel, Helical and Worm Gears | 13.14-13.17 | | |
+| 12 | W 11/18 | Screws: Thread Standards and Definitions | 8.1 | | |
 | 13 | M 11/23 | **No class**: Independence Day | | | |
-| 13 | W 11/25 | Force Analysis: Spur Gears and Helical Gears | 13.14, 13.16 | | |
-| 14 | M 11/30 | Force Analysis: Bevel Gears and Worm Gears | 13.15, 13.17 | | |
+| 13 | W 11/25 | Mechanics of Power Screws | 8.2 | | |
+| 14 | M 11/30 | **Final exam review** | | | |
 | 14 | W 12/02 | **Final project presentations**: prototype demonstration, poster and competition. Last day of class. | | | |
 
 *Lectures from Week 9 onward are planned and may shift.*
