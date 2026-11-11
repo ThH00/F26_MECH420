@@ -29,7 +29,7 @@
 | 10 | M 11/02 | Rolling-Contact Bearings: Bearing Types, Bearing Life, Bearing Load-Life at Rated Reliability | 11.1-11.3 | [Ch11 Slides](https://docs.google.com/presentation/d/1SMSdtZo6ndZZ9aSHWAGssM36WHJyhDRX/edit?usp=sharing&ouid=104978120971085325751&rtpof=true&sd=true), [Ch11 Notes](https://drive.google.com/file/d/1Qcd-G2697xCSik9fy8odcw8vaA9gn5eo/view?usp=sharing) | |
 | 10 | W 11/04 | Reliability versus Life (Weibull), Relating Load, Life and Reliability, Combined Radial and Thrust Loading | 11.4-11.6 | | |
 | 11 | M 11/09 | Variable Loading, Selection of Ball, Cylindrical and Tapered Roller Bearings, Design Assessment (end of Ch11) | 11.7-11.10 | | Ch11 quiz/HW due Tue 11/10 at 2:00 PM on Gradescope |
-| 11 | W 11/11 | Gears: Types of Gears, Nomenclature, Conjugate Action, Tooth Systems, Gear Trains | 13.1-13.5, 13.12-13.13 | | |
+| 11 | W 11/11 | Gears: Types of Gears, Nomenclature, Conjugate Action, Tooth Systems, Gear Trains | 13.1-13.5, 13.12-13.13 | [Ch13 Slides](https://docs.google.com/presentation/d/1RVCXoHl_XYBLp8ePuSHCXomckbec_8h3/edit?usp=sharing&ouid=104978120971085325751&rtpof=true&sd=true), [Ch13 Notes](https://drive.google.com/file/d/1Imdcnf0_pGdKqd5y6wzZfyhpbg6MyWj_/view?usp=sharing) | |
 | 12 | M 11/16 | Force Analysis: Spur, Bevel, Helical and Worm Gears | 13.14-13.17 | | |
 | 12 | W 11/18 | Screws: Thread Standards and Definitions | 8.1 | | |
 | 13 | M 11/23 | **No class**: Independence Day | | | |
