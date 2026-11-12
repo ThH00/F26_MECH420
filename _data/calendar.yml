@@ -119,6 +119,14 @@
   details: Frame assembled with at least one axis moving, test plan, design iteration log.
   link: https://drive.google.com/file/d/10B2SF8huNf8F1u6zZ09OYmAAV8idkDYt/view?usp=sharing
 
+- title: Procurement list due (Machine Shop items)
+  date: 2026-11-16
+  type: project
+  start: "16:00"
+  end: "16:00"
+  details: Complete the MECH420 Procurement List with the items the Machine Shop should procure. Team budget is $100.
+  link: https://thh00.github.io/F26_MECH420/project.html#budget-and-procurement
+
 - title: Final project presentation
   date: 2026-12-02
   type: project
