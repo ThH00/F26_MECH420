@@ -21,6 +21,7 @@ title: Practice Problems & Quizzes
 ## Previous Exams
 
 - [Midterm Formula Sheet](files/exams/midterm-formula-sheet.pdf)
+- Fall 2026 Midterm: [Exam](files/exams/midterm-fall2026.pdf) & [Solutions](files/exams/midterm-fall2026-solution.pdf)
 - Fall 2023 Midterm: [Exam](files/exams/midterm-fall2023.pdf) & [Solutions](files/exams/midterm-fall2023-solution.pdf)
 
 ## Useful Videos
