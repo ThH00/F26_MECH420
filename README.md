@@ -31,9 +31,9 @@
 | 11 | M 11/09 | Variable Loading, Selection of Ball, Cylindrical and Tapered Roller Bearings, Design Assessment (end of Ch11) | 11.7-11.10 | | Ch11 quiz/HW due Tue 11/10 at 2:00 PM on Gradescope |
 | 11 | W 11/11 | Gears: Types of Gears, Nomenclature, Conjugate Action, Tooth Systems, Gear Trains | 13.1-13.5, 13.12-13.13 | [Ch13 Slides](https://docs.google.com/presentation/d/1RVCXoHl_XYBLp8ePuSHCXomckbec_8h3/edit?usp=sharing&ouid=104978120971085325751&rtpof=true&sd=true), [Ch13 Notes](https://drive.google.com/file/d/1Imdcnf0_pGdKqd5y6wzZfyhpbg6MyWj_/view?usp=sharing) | |
 | 12 | M 11/16 | Force Analysis: Spur, Bevel, Helical and Worm Gears | 13.14-13.17 | | |
-| 12 | W 11/18 | Screws: Thread Standards and Definitions | 8.1 | | |
+| 12 | W 11/18 | Screws: Thread Standards and Definitions | 8.1 | [Ch8 Slides](files/lectures/ch8-screws-and-power-screws.pptx) | |
 | 13 | M 11/23 | **No class**: Independence Day | | | |
-| 13 | W 11/25 | Mechanics of Power Screws | 8.2 | | |
+| 13 | W 11/25 | **Quiz on screws (Ch8).** Mechanics of Power Screws | 8.2 | | |
 | 14 | M 11/30 | **Final exam review** | | | |
 | 14 | W 12/02 | **Final project presentations**: prototype demonstration, poster and competition. Last day of class. | | | |
 
