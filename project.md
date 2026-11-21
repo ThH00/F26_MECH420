@@ -42,6 +42,7 @@ For full credit, among other things:
 - yield analysis with a safety factor;
 - FEA analysis: describe the applied forces and the supports/boundary conditions, show the mesh refinement, and include a convergence study;
 - safety factors for the additional components.
+- clarity of analysis: present every analysis so it is easy to follow.
 
 **Video.** Explain the key points of your report and how they relate to the actual build. The video is graded on communication: focus on the important parts, choose the essential elements, and do not read a script of non-essentials. Present it the way you would present the project in a design interview.
 
