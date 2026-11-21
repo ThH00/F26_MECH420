@@ -17,6 +17,29 @@ Overview of project deadlines:
 | Week 10     | Wed Dec 2  | **Final presentation:** prototype demonstration, poster and competition. |
 | Post-finals | TBA        | **Final project report.** |
 
+## Project Grading
+
+The project is **30%** of the course grade, split as follows.
+
+| Deliverable | Share of project grade |
+|---|---|
+| Reports 1–4 | 5% each (20% total) |
+| Report 5 – Final project report | 50% |
+| Video | 15% |
+| Build | 15% |
+| **Total** | **100%** |
+
+**Report 5.** For full credit, among other things:
+
+- justify every design decision, referring back to standard sizes and spec sheets;
+- static analysis with a safety factor;
+- yield analysis with a safety factor;
+- safety factors for the additional components.
+
+**Video.** Explain the key points of your report and how they relate to the actual build. The video is graded on communication: focus on the important parts, choose the essential elements, and do not read a script of non-essentials. Present it the way you would present the project in a design interview.
+
+**Build.** 10% of the project grade for the machine moving as it should, and 5% for creativity, going beyond the basic requirements.
+
 ## Budget and Procurement
 
 Each team has a budget of **$100**.

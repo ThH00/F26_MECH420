@@ -20,12 +20,25 @@ A summary of the course syllabus. The [full syllabus (PDF)](https://drive.google
 
 | Component | Weight |
 |---|---|
-| Assignments, quizzes and participation | 20% |
+| Assignments, quizzes and participation ([breakdown](#assignments-quizzes-and-participation)) | 20% |
 | Midterm exam | 20% |
-| Project | 30% |
+| Project ([breakdown](project.html#project-grading)) | 30% |
 | Final exam | 30% |
 
 Letter grades follow the [AUB grading system](https://www.aub.edu.lb/Registrar/Pages/academic-information.aspx): A+ 93–100, A 87–92, A– 83–86, B+ 79–82, B 75–78, B– 72–74, C+ 69–71, C 66–68, C– 63–65, D+ 61–62, D 60, F below 60.
+
+### Assignments, quizzes and participation
+
+| Item | Weight (of course grade) |
+|---|---|
+| HW1 – Intro to Ansys | 2% |
+| HW2 – Fracture | 2.5% |
+| HW3 – Shafts | 1% |
+| Quiz 1 – Chalk vs. whiteboard marker | 2.5% |
+| Quiz 2 – Fracture / failure theory drill | 2.5% |
+| Quiz 8 – Power screws | 4% |
+| All other quizzes and homework (equal weights, **lowest grade dropped**) | 5.5% |
+| **Total** | **20%** |
 
 ## Homework
 
@@ -37,7 +50,7 @@ Letter grades follow the [AUB grading system](https://www.aub.edu.lb/Registrar/P
 ## Quizzes
 
 - Some lectures include a group or individual assessment.
-- **Your lowest quiz grade is dropped** to cover necessary absences.
+- **Your lowest grade among the equally weighted quizzes and homework is dropped** to cover necessary absences (see [Grading](#assignments-quizzes-and-participation)).
 - **There are no makeup quizzes.**
 
 ## Late work and extensions
