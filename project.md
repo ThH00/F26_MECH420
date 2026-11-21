@@ -33,6 +33,7 @@ The project is **30%** of the course grade, split as follows.
 
 - Put every table, spec sheet and other reference you cite in the appendix.
 - If needed, you can move FEA figures to the appendix. Keep the critical points and main results in the body of the report.
+- Include an appendix with an AI-generated GD&T analysis, clearly labeled as AI-generated.
 
 For full credit, among other things:
 
