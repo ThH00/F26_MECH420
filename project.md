@@ -15,7 +15,7 @@ Overview of project deadlines:
 | Week 6      | Wed Nov 4  | **Report 3 – Detailed design & design freeze:** static FEA with mesh convergence compared to hand calculations; fatigue analysis of the critical component; tolerances, fits and alignment strategy; final component selection, BOM and manufacturing plan. Procurement begins. |
 | Week 8      | Wed Nov 18 | **Report 4 – Build progress:** frame assembled and at least one axis moving; test plan with preliminary measurements; log of design iterations and changes since freeze. |
 | Week 10     | Wed Dec 2  | **Final presentation:** prototype demonstration, poster and competition. |
-| Post-finals | TBA        | **Final project report.** |
+| Post-finals | TBA        | **Final project report** (Report 5), **10 pages maximum**. |
 
 ## Project Grading
 
@@ -29,11 +29,12 @@ The project is **30%** of the course grade, split as follows.
 | Build | 15% | 4.5% |
 | **Total** | **100%** | **30%** |
 
-**Report 5.** For full credit, among other things:
+**Report 5.** The final report is limited to **10 pages**. For full credit, among other things:
 
 - justify every design decision, referring back to standard sizes and spec sheets;
 - static analysis with a safety factor;
 - yield analysis with a safety factor;
+- FEA analysis: describe the applied forces and the supports/boundary conditions, show the mesh refinement, and include a convergence study;
 - safety factors for the additional components.
 
 **Video.** Explain the key points of your report and how they relate to the actual build. The video is graded on communication: focus on the important parts, choose the essential elements, and do not read a script of non-essentials. Present it the way you would present the project in a design interview.
