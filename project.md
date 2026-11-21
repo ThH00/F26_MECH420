@@ -32,6 +32,7 @@ The project is **30%** of the course grade, split as follows.
 **Report 5.** The final report is limited to **10 pages**. For full credit, among other things:
 
 - justify every design decision, referring back to standard sizes and spec sheets;
+- clearly identify the critical locations;
 - static analysis with a safety factor;
 - yield analysis with a safety factor;
 - FEA analysis: describe the applied forces and the supports/boundary conditions, show the mesh refinement, and include a convergence study;
