@@ -29,7 +29,12 @@ The project is **30%** of the course grade, split as follows.
 | Build | 15% | 4.5% |
 | **Total** | **100%** | **30%** |
 
-**Report 5.** The final report is limited to **10 pages**. For full credit, among other things:
+**Report 5.** The final report is limited to **10 pages**. The title page, table of contents and appendix do not count toward the limit.
+
+- Put every table, spec sheet and other reference you cite in the appendix.
+- If needed, you can move FEA figures to the appendix. Keep the critical points and main results in the body of the report.
+
+For full credit, among other things:
 
 - justify every design decision, referring back to standard sizes and spec sheets;
 - clearly identify the critical locations;
