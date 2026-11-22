@@ -14,7 +14,7 @@ title: Practice Problems & Quizzes
 | [7](https://drive.google.com/file/d/1aRZHnRO8qVMRG5CPFh0-NC6dvUQDLqQ9/view?usp=sharing) |  | 11th ed.: 7-28(a) with DE-Goodman, 7-29 fatigue only with DE-Goodman (skip deflection), 7-47(a-d); [Deflection Problem](https://drive.google.com/file/d/1GHc3LbIC5u9r73uTIIXmze1tkWlR7FmU/view?usp=sharing) and [Solution](https://drive.google.com/file/d/1XnqbVJS9svKtoT9SHChsNOPXVGEbiBbn/view?usp=sharing) |
 | [8](files/lectures/ch8-screws-notes.pdf) | | 11th ed.: 8-1, 8-3, 8-4, 8-6, 8-7(a-c), 8-8, 8-9, 8-10 |
 | [11](https://drive.google.com/file/d/1Qcd-G2697xCSik9fy8odcw8vaA9gn5eo/view?usp=sharing) | | 11th ed.: 11-1, 11-2, 11-3, 11-4, 11-5, 11-8, 11-9, 11-11, 11-13, 11-24, 11-25, 11-27, 11-34, 11-43 |
-| [13](https://drive.google.com/file/d/1Imdcnf0_pGdKqd5y6wzZfyhpbg6MyWj_/view?usp=sharing) | | 11th ed., force analysis by gear type. Spur: 13-32, 13-39, 13-40; Bevel: 13-49, 13-50; Helical: 13-51, 13-52, 13-55, 13-56; Worm: 13-58, 13-59 |
+| [13](https://drive.google.com/file/d/1Imdcnf0_pGdKqd5y6wzZfyhpbg6MyWj_/view?usp=sharing) | | 11th ed., force analysis by gear type. Spur: 13-32, 13-39, 13-40; Bevel: 13-49, 13-50; Helical: 13-51, 13-56; Worm: 13-58, 13-59 |
 
 ### Final Exam Review
 
