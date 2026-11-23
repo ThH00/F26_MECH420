@@ -19,7 +19,7 @@
 | 5 | W 09/30 | Fatigue-Life Methods, The linear-elastic fracture mechanics method, The stress-life method and the S-N diagram, The idealized S-N Diagram for Steels, Endurance limit modifying factors | 6.1-6.9 | [Ch6 lecture notes](https://drive.google.com/file/d/1F4Gps9KxB4xKNSmBf61OkfEMGfz5IKbf/view?usp=sharing) | |
 | 6 | M 10/05 | Endurance limit modifying factors, Stress concentration and Notch Sensitivity | 6.9-6.10 | | |
 | 6 | W 10/07 | Characterizing fluctuating stresses, Fatigue failure criteria for fluctuating stresses, Combination of Loading Notes | 6.11-6.12, 6.14 | | |
-| 7 | M 10/12 | Quiz 3 (drop quiz). Intro to Shafts and Components, Shaft Materials, Shaft Layout, Shaft Design for Stress | 7.1-7.4 | [Ch7 lecture notes](https://drive.google.com/file/d/1lIuOn_kNjLLd5RGKKooTMUwj644VgVvq/view?usp=sharing) | |
+| 7 | M 10/12 | Quiz 3 (drop quiz). Intro to Shafts and Components, Shaft Materials, Shaft Layout, Shaft Design for Stress | 7.1-7.4 | [Ch7 lecture notes](https://drive.google.com/file/d/1lIuOn_kNjLLd5RGKKooTMUwj644VgVvq/view?usp=sharing), Ch7 Slides (B. Zoghbi): [7.1-7.5](files/lectures/ch7-zoghbi-slides-7.1-7.5.pdf), [7.8](files/lectures/ch7-zoghbi-slides-7.8.pdf) | |
 | 7 | W 10/14 | Quiz 4 (Ch6). Deflection Considerations | 7.4-7.5 | | HW3 due on October 28 |
 | 8 | M 10/19 | Deflection Considerations, Limits and Fits | 7.8 | | |
 | 8 | W 10/21 | Quiz 5 (Ch7). Limits and Fits | 7.8 | | |
@@ -33,8 +33,8 @@
 | 12 | M 11/16 | Force Analysis: Spur, Bevel, Helical and Worm Gears | 13.14-13.17 | | |
 | 12 | W 11/18 | Screws: Thread Standards and Definitions | 8.1 | [Ch8 Slides](files/lectures/ch8-screws-and-power-screws.pptx), [Ch8 Notes](files/lectures/ch8-screws-notes.pdf) | |
 | 13 | M 11/23 | **No class**: Independence Day | | | |
-| 13 | W 11/25 | **Quiz on screws (Ch8).** Mechanics of Power Screws | 8.2 | | |
-| 14 | M 11/30 | **Final exam review** | | | |
-| 14 | W 12/02 | **Final project presentations**: prototype demonstration, poster and competition. Last day of class. | | | |
+| 13 | W 11/25 | Finish screw problems (Mechanics of Power Screws), then final exam review | 8.2 | [Final Exam Review](files/review/final-exam-review.pdf) | |
+| 14 | M 11/30 | **Quiz on screws (Ch8), 20 min**, then final exam review | 8 | [Final Exam Review](files/review/final-exam-review.pdf) | |
+| 14 | W 12/02 | **Projects** (20 min), then final exam review. Last day of class. | | [Final Exam Review](files/review/final-exam-review.pdf) | |
 
 *Lectures from Week 9 onward are planned and may shift.*
