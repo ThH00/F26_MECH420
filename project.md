@@ -6,6 +6,8 @@ title: Project
 
 [This](https://drive.google.com/file/d/10B2SF8huNf8F1u6zZ09OYmAAV8idkDYt/view?usp=sharing) is the official announcement of the class project.
 
+**Machine shop:** book a slot at the SRB workshops through the [Makerspace booking site](https://sites.aub.edu.lb/makerspace/) before you go. Demand is high this time of the semester, so book early and only the slots you need.
+
 Overview of project deadlines:
 
 | Week        | Due        | Deliverable |
